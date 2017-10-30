@@ -98,6 +98,16 @@ iframe {
   border: 0;
 }
 
+.flex-block{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+.flex-block>h2{
+  flex: 1 100%;
+}
+
 @media screen and (max-width:768px) {
   .col-6 {
     width: 100%;
